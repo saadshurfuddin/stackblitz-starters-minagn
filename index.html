@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Finder</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Book Finder for Alex</h1>
+    </header>
+
+    <main>
+      <section id="search-section">
+        <form id="searchForm">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Search by title, author, or genre"
+            required
+          />
+          <button type="submit">Search</button>
+        </form>
+      </section>
+
+      <section id="results-section">
+        <h2>Results</h2>
+        <div id="results"></div>
+      </section>
+
+      <section id="reading-list-section">
+        <h2>Your Reading List</h2>
+        <ul id="readingList"></ul>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
